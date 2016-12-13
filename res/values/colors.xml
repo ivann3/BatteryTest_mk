@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color><!-- 白色 -->
+	<color name="black">#000000</color><!--黑色 -->
+	<color name="blue">#6699ff</color><!-- 蓝色 -->
+	<color name="yellow">#f5ca64</color><!-- 黄色 -->
+	<color name="green">#00FA9A</color><!-- 绿色 -->
+	<color name="red">#fe5b5b</color><!-- 浅红 -->
+	<color name="lightblack">#373b3e</color><!-- 浅黑 -->
+	<color name="darkred">#c72232</color><!-- 深红 -->
+	<color name="darkblue">#003399</color><!-- 深蓝 -->
+	<color name="darkgreen">#008B00</color><!-- 深绿 -->
+	<color name="color101">#1b1b1b</color>
+	<color name="color102">#353535</color>
+	<color name="color103">#ababab</color><!-- 按下效果 -->
+	<color name="color104">#bfbfbf</color><!-- TAB灰色 -->
+	<color name="color105">#ececec</color><!-- TAB bg -->
+	<color name="transparent">#50000000</color> <!-- 透明色 -->
+	
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+<item android:state_enabled="true" android:state_pressed="false"><shape>  
+    <corners android:radius="5.0dp" />
+    <!-- 圆角，你也可以对不同的角设置不同的数值 -->
+    <solid android:color="@color/red" />
+    <!-- 按钮可按 -->
+</shape></item>
+
+<item android:state_enabled="true" android:state_pressed="true"><shape>
+    <corners android:radius="5.0dp" />
+    <!-- 圆角，你也可以对不同的角设置不同的数值 -->
+    <solid android:color="@color/darkred" />
+    <!-- 按钮被点击 -->
+</shape></item>
+
+</selector>

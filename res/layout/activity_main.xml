@@ -1,0 +1,259 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblack"
+    tools:context="com.mikimobile.activities.MainActivity" >
+   
+ 
+   <TextView
+        android:id="@+id/test_log_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/test_title"
+        style="@style/H3" />
+  
+      <View 
+        android:id="@+id/line1"
+        android:layout_below="@+id/test_log_label"
+        android:layout_marginTop="5dp"
+        style="@style/Line1" />
+   
+      <TextView
+        android:id="@+id/voltage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="voltage: "
+        style="@style/H2" />
+
+      <TextView
+        android:id="@+id/battery_voltage"
+        style="@style/H2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/voltage"
+        android:layout_alignBottom="@+id/voltage"
+        android:layout_toRightOf="@+id/voltage" />
+   
+   <TextView
+        android:id="@+id/dump_energy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@+id/voltage"
+        android:text="level: "
+        style="@style/H2" />
+
+   <TextView
+       android:id="@+id/battery_energy"
+       style="@style/H2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/dump_energy"
+       android:layout_alignBottom="@+id/dump_energy"
+       android:layout_toRightOf="@+id/dump_energy" />
+   
+   
+   <TextView
+       android:id="@+id/status"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/dump_energy"
+       android:layout_marginTop="16dp"
+       android:layout_marginLeft="16dp"
+       android:text="status: "
+       style="@style/H2" />
+
+   <TextView
+       android:id="@+id/battery_status"
+       style="@style/H2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/status"
+       android:layout_alignBottom="@+id/status"
+       android:layout_toRightOf="@+id/status"/>
+   
+   <TextView
+       android:id="@+id/health"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/status"
+       android:layout_marginTop="16dp"
+       android:layout_marginLeft="16dp"
+       android:text="health: "
+       style="@style/H2" />
+
+   <TextView
+       android:id="@+id/battery_health"
+       style="@style/H2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/health"
+       android:layout_alignBottom="@+id/health"
+       android:layout_toRightOf="@+id/health"/>
+   
+   <TextView
+       android:id="@+id/technology"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/health"
+       android:layout_marginTop="16dp"
+       android:layout_marginLeft="16dp"
+       android:text="technology: "
+       style="@style/H2" />
+
+   <TextView
+       android:id="@+id/battery_technology"
+       style="@style/H2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/technology"
+       android:layout_alignBottom="@+id/technology"
+       android:layout_toRightOf="@+id/technology"/>
+
+       
+   <TextView
+        android:id="@+id/test_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/technology"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="测试视频(音乐)"
+        style="@style/H3" />
+  
+      <View 
+        android:id="@+id/line2"
+        android:layout_below="@+id/test_tip"
+        android:layout_marginTop="5dp"
+        style="@style/Line1" />
+       
+   <TextView
+       android:id="@+id/video"
+       style="@style/H2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/line2"
+       android:layout_marginTop="16dp"
+       android:layout_marginLeft="16dp"
+       android:text="video:   " />
+   
+   <TextView
+       android:id="@+id/video_uri"
+       style="@style/H2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/video"
+       android:layout_alignBottom="@+id/video"
+       android:layout_toRightOf="@+id/video"
+       android:text="" />
+   
+   <TextView
+       android:id="@+id/music"
+       style="@style/H2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/video"
+       android:layout_marginTop="32dp"
+       android:layout_marginLeft="16dp"
+       android:text="music:  " />
+   
+   <TextView
+       android:id="@+id/music_uri"
+       style="@style/H2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/music"
+       android:layout_alignBottom="@+id/music"
+       android:layout_toRightOf="@+id/music"
+       android:text="" />
+
+    
+<RelativeLayout
+    android:id="@+id/mbuttonView"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="10dp">
+
+<LinearLayout
+    android:id="@+id/buttonView"
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:orientation="horizontal" >  
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="100dp"
+        android:layout_height="30dp"      
+        android:background="@drawable/button_green_shape"
+        android:textSize="14sp"
+        android:text="停止记录数据" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/button_green_shape"
+        android:textSize="14sp"
+        android:text="清除数据" />
+    
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/button_green_shape"
+        android:textSize="14sp"
+        android:text="退出应用" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:layout_centerHorizontal="true"
+    android:orientation="horizontal"
+    android:layout_above="@+id/buttonView"
+    android:layout_marginBottom="5dp">
+    
+    <Button
+    android:id="@+id/normal_mode"
+    android:layout_width="100dp"
+    android:layout_height="30dp"
+    android:background="@drawable/button_red_shape"
+    android:textSize="14sp"
+    android:text="充电测试" />
+
+<Button
+    android:id="@+id/video_mode"
+    android:layout_width="100dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="15dp"
+    android:background="@drawable/button_red_shape"
+    android:textSize="14sp"
+    android:text="视频放电测试" />
+
+<Button
+    android:id="@+id/music_mode"
+    android:layout_width="100dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="15dp"
+    android:background="@drawable/button_red_shape"
+    android:textSize="14sp"
+    android:text="音乐放电测试"/>
+</LinearLayout>
+
+
+</RelativeLayout>
+
+</RelativeLayout>

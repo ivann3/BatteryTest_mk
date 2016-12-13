@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:background="@color/transparent" >
+    
+    
+    <ImageView
+        android:id="@+id/actionbar_prev"
+        android:layout_width="40dp"
+        android:layout_height="40dp" 
+        android:padding="8dp"   
+        android:src="@drawable/arrow_l_white"/>
+    
+    <View 
+        android:layout_height="match_parent" 
+        android:layout_width="1px"
+        android:background="@color/color101" />
+    
+
+</LinearLayout>
