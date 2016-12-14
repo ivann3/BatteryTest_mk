@@ -5,4 +5,19 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="test_title">电源测试数据</string>
+    <string name="voltage">voltage: </string>
+    <string name="level">level: </string>
+    <string name="status">status: </string>
+    <string name="health">health: </string>
+    <string name="technology">technology: </string>
+    <string name="test_Media">测试视频(音频)</string>
+    <string name="video">video:   </string>
+    <string name="music">music:   </string>
+    <string name="stop_Record">停止记录数据</string>
+    <string name="wipe_Data">清除数据</string>
+    <string name="quit">退出应用</string>
+    <string name="charge_Test">充电测试</string>
+    <string name="video_Test">视频放电测试</string>
+    <string name="music_Test">音乐放电测试</string>
+    <string name="empty"></string>
 </resources>
