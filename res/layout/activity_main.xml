@@ -28,7 +28,7 @@
         android:layout_below="@+id/line1"
         android:layout_marginTop="16dp"
         android:layout_marginLeft="16dp"
-        android:text="voltage: "
+        android:text="@string/voltage"
         style="@style/H2" />
 
       <TextView
@@ -47,7 +47,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginLeft="16dp"
         android:layout_below="@+id/voltage"
-        android:text="level: "
+        android:text="@string/level"
         style="@style/H2" />
 
    <TextView
@@ -67,7 +67,7 @@
        android:layout_below="@+id/dump_energy"
        android:layout_marginTop="16dp"
        android:layout_marginLeft="16dp"
-       android:text="status: "
+       android:text="@string/status"
        style="@style/H2" />
 
    <TextView
@@ -86,7 +86,7 @@
        android:layout_below="@+id/status"
        android:layout_marginTop="16dp"
        android:layout_marginLeft="16dp"
-       android:text="health: "
+       android:text="@string/health"
        style="@style/H2" />
 
    <TextView
@@ -105,7 +105,7 @@
        android:layout_below="@+id/health"
        android:layout_marginTop="16dp"
        android:layout_marginLeft="16dp"
-       android:text="technology: "
+       android:text="@string/technology"
        style="@style/H2" />
 
    <TextView
@@ -125,7 +125,7 @@
         android:layout_below="@+id/technology"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
-        android:text="测试视频(音乐)"
+        android:text="@string/test_Media"
         style="@style/H3" />
   
       <View 
@@ -142,7 +142,7 @@
        android:layout_below="@+id/line2"
        android:layout_marginTop="16dp"
        android:layout_marginLeft="16dp"
-       android:text="video:   " />
+       android:text="@string/video" />
    
    <TextView
        android:id="@+id/video_uri"
@@ -152,7 +152,7 @@
        android:layout_alignBaseline="@+id/video"
        android:layout_alignBottom="@+id/video"
        android:layout_toRightOf="@+id/video"
-       android:text="" />
+       android:text="@string/empty" />
    
    <TextView
        android:id="@+id/music"
@@ -162,7 +162,7 @@
        android:layout_below="@+id/video"
        android:layout_marginTop="32dp"
        android:layout_marginLeft="16dp"
-       android:text="music:  " />
+       android:text="@string/music" />
    
    <TextView
        android:id="@+id/music_uri"
@@ -172,7 +172,7 @@
        android:layout_alignBaseline="@+id/music"
        android:layout_alignBottom="@+id/music"
        android:layout_toRightOf="@+id/music"
-       android:text="" />
+       android:text="@string/empty" />
 
     
 <RelativeLayout
@@ -197,7 +197,7 @@
         android:layout_height="30dp"      
         android:background="@drawable/button_green_shape"
         android:textSize="14sp"
-        android:text="停止记录数据" />
+        android:text="@string/stop_Record" />
 
     <Button
         android:id="@+id/reset"
@@ -206,7 +206,7 @@
         android:layout_marginLeft="15dp"
         android:background="@drawable/button_green_shape"
         android:textSize="14sp"
-        android:text="清除数据" />
+        android:text="@string/wipe_Data" />
     
     <Button
         android:id="@+id/exit"
@@ -215,7 +215,7 @@
         android:layout_marginLeft="15dp"
         android:background="@drawable/button_green_shape"
         android:textSize="14sp"
-        android:text="退出应用" />
+        android:text="@string/quit" />
 </LinearLayout>
 
 <LinearLayout
@@ -232,7 +232,7 @@
     android:layout_height="30dp"
     android:background="@drawable/button_red_shape"
     android:textSize="14sp"
-    android:text="充电测试" />
+    android:text="@string/charge_Test" />
 
 <Button
     android:id="@+id/video_mode"
@@ -241,7 +241,7 @@
     android:layout_marginLeft="15dp"
     android:background="@drawable/button_red_shape"
     android:textSize="14sp"
-    android:text="视频放电测试" />
+    android:text="@string/video_Test" />
 
 <Button
     android:id="@+id/music_mode"
@@ -250,7 +250,7 @@
     android:layout_marginLeft="15dp"
     android:background="@drawable/button_red_shape"
     android:textSize="14sp"
-    android:text="音乐放电测试"/>
+    android:text="@string/music_Test"/>
 </LinearLayout>
 
 
